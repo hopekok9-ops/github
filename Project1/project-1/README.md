@@ -29,17 +29,14 @@ The following **optional** features are implemented:
 ## GIF Walkthrough
 
 Here's a walkthrough of implemented required features:
-
-<img width="1434" height="722" alt="CouchPopMobile" src="https://github.com/user-attachments/assets/29e31586-9599-485e-9940-92b6643d2b4e" />
+<img width="1434" height="722" alt="CPGallery" src="https://github.com/user-attachments/assets/64885093-8aae-45ce-8679-8bbf31a54ce4" />
 
 And the mobile responsiveness: 
-
+<img width="1434" height="722" alt="CouchPopMobile" src="https://github.com/user-attachments/assets/29e31586-9599-485e-9940-92b6643d2b4e" />
 
 
 
 ## Notes
-
-Describe any challenges encountered while building the app.
 
 This was the first time creating a webpage by stratch and at first I didn't know where to start. I haven't used Git or VS Code (in-app) before so there was a learning curve, but I really liked the Copilot feature when I was stuck on the syntax errors or commiting my progress. I also tried pair programming with ChatGPT to guide me step-by-step (as in step 1: what is your idea? step 2: what's your card style? step 3: do you remember how to use flexbox to create the cards?, etc) and I learned a lot! Despite the confusing-at-first learning curve, I actually enjoyed creating the webpage. 
 
