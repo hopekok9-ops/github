@@ -1,16 +1,64 @@
-# React + Vite
+# Web102 Project 1 - CouchPop Community Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Submitted by: Hope Kiarie
 
-Currently, two official plugins are available:
+This webpage shows a community board of this week’s movie selections voted by our viewers! 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Time spent: 6 hours spent in total
 
-## React Compiler
+## Required Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The following **required** functionality is completed:
 
-## Expanding the ESLint configuration
+- [x] **The app has a cohesive, unique theme for events or resources relevant to a specific community**
+- [x] Header/title describing the theme is displayed
+- [x] **At least 10 unique events or resources are displayed in a responsive card format**
+- [x] There are at least 10 cards displayed for 10 different events 
+- [x] The cards should be displayed in an organized format (ex. a grid, or in one line)
+- [x] Each card should include some information about the event or resource
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+The following **optional** features are implemented:
+
+- [ ] Buttons or links to a related resources are on each card component
+- [ ] All cards have buttons or links in addition to text
+- [x] The site is responsive for both desktop and mobile formats
+- [x] Web app is shown in a mobile format
+
+
+## GIF Walkthrough
+
+Here's a walkthrough of implemented required features:
+
+<img width="1434" height="722" alt="CouchPopMobile" src="https://github.com/user-attachments/assets/29e31586-9599-485e-9940-92b6643d2b4e" />
+
+And the mobile responsiveness: 
+
+
+
+
+## Notes
+
+Describe any challenges encountered while building the app.
+
+This was the first time creating a webpage by stratch and at first I didn't know where to start. I haven't used Git or VS Code (in-app) before so there was a learning curve, but I really liked the Copilot feature when I was stuck on the syntax errors or commiting my progress. I also tried pair programming with ChatGPT to guide me step-by-step (as in step 1: what is your idea? step 2: what's your card style? step 3: do you remember how to use flexbox to create the cards?, etc) and I learned a lot! Despite the confusing-at-first learning curve, I actually enjoyed creating the webpage. 
+
+
+## License
+
+    Copyright 2026 Hope Kiarie
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+
+
