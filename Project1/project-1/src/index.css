@@ -1,0 +1,31 @@
+body {
+    background-color: #fff7ed;
+    font-size: 16px;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #111111;
+    text-align: center;
+    margin-bottom: 40px;
+} 
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+p {
+  font-size: smaller;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  line-height: 10px;
+}
+
