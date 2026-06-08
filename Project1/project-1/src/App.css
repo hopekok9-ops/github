@@ -1,0 +1,29 @@
+
+.movie-card-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 30px;
+  justify-content: center;
+  background-color: #111111;
+  border-radius: 25px;
+  margin: 30px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+@media (max-width: 1024px) {
+  .movie-card-gallery {
+    justify-content: center;
+  }
+}
+
+
+.header {
+  margin: 30px;
+  padding: 80px 20px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #ffd1dc;
+  color: #ffffff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
