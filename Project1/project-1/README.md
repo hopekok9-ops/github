@@ -26,12 +26,13 @@ The following **optional** features are implemented:
 - [x] Web app is shown in a mobile format
 
 
-## GIF Walkthrough
+## GIF Required Walkthrough
 
-Here's a walkthrough of implemented required features:
 <img width="1434" height="722" alt="CPGallery" src="https://github.com/user-attachments/assets/64885093-8aae-45ce-8679-8bbf31a54ce4" />
 
-And the mobile responsiveness: 
+
+## GIF Mobile Responsiveness 
+
 <img width="1434" height="722" alt="CouchPopMobile" src="https://github.com/user-attachments/assets/29e31586-9599-485e-9940-92b6643d2b4e" />
 
 
