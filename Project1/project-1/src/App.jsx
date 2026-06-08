@@ -17,7 +17,7 @@ const App = () => {
     <div className="App">
       
       <div className="header">
-         <h1>CouchPop Community Gallery 🍿</h1>
+         <h1 className="gallery-title">CouchPop Weekly Gallery 🍿</h1>
          <h2>Movies selected and voted by members for this week's watch party.</h2>
          <h2>Browse the current picks and discover what the community is watching next!</h2>
       </div>
