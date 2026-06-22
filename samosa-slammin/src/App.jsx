@@ -11,31 +11,50 @@ const App = () => {
     setCount(count + multiplier);
   };
 
+  const buyDoubleStuffed = () => {
+    if(count >= 10) {
+      setMultiplier(multiplier * 2);
+      setCount(count - 10);
+    }
+  }
 
+  const buyPartyPack = () => {
+    if (count >= 100) {
+      setMultiplier(multiplier * 5);
+      setCount(count - 100);
+    }
+  }
+
+   const buyFullFeast = () => {
+    if (count >= 1000) {
+      setMultiplier(multiplier * 10);
+      setCount(count - 1000);
+    }
+  }
 
   return (
     <div className="App">
-      <h1>"Samosa Slammin'"</h1>  
-      <h2>"Count: {count}"</h2>
+      <h1>Samosa Slammin'</h1>  
+      <h2>Count: {count}</h2>
       <img className="samosa" onClick={updateCount} src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9GdT2EnUZDUWbPl--dvuYaNNvNq9qh3dXtM0RHMBMcfnOKX11UsTqRuo6-xeYAc91ifAB6pNMecDD1fFYO3hzVueQgm80YoBbKblmH8wgFQ&s=10" alt="samosa" />
 
       <div className="container">
         <div className="upgrade">
-          <h3>Double Stuff</h3>
+          <h3>Double Stuff 👯‍♀️</h3>
           <p>2x per click</p> 
-          <button label="10 samosas" >Buy</button>
+          <button label="10 samosas" onClick={buyDoubleStuffed}>10 samosas</button>
         </div>
 
         <div className="upgrade">
-          <h3>Party Pack</h3>
+          <h3>Party Pack 🎉</h3>
           <p>5x per click</p> 
-          <button label="100 samosas" >Buy</button>
+          <button label="100 samosas" onClick={buyPartyPack}>100 samosas</button>
         </div>
 
         <div className="upgrade">
-          <h3>Full feast</h3>
+          <h3>Full Feast 👨🏽‍🍳</h3>
           <p>10x per click</p> 
-          <button label="1000 samosas" >Buy</button>
+          <button label="1000 samosas" onClick={buyFullFeast} >1000 samosas</button>
           
         </div>
       </div>

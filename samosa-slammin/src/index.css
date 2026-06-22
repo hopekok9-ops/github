@@ -6,15 +6,10 @@ body {
   min-height: 100vh; 
 }
 
-.upgrade {
-  border: 1px solid rgba(153, 153, 153, 0.497);
-  padding: 20px 10px; 
-  margin-right: 25px;
-  width: 200px; 
-  line-height: 1.5;
-  
-}
 
-.container {
-  
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(19, 19, 19);
+    color: rgb(139, 139, 139);
+  }
 }

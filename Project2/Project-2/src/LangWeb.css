@@ -93,11 +93,18 @@ h1 {
   margin: 0 auto;
 }
 
+
+.CardArea {
+  display: flex;
+  align-items: center; 
+  gap: 3rem;
+}
+
+
 .Footer {
   display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 16px;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .Footer button {
@@ -109,6 +116,12 @@ h1 {
   cursor: pointer;
   border: 3px solid #ff9500;
   transition: all 0.2s ease;
+
+
+  display: flex;
+  flex-direction: column; 
+  gap: 1rem;
+
 }
 
 .Footer button:hover {
@@ -118,3 +131,15 @@ h1 {
 }
 
 
+.Footer button:disabled {
+  background-color: #de8304;
+  color: #e8d1b7;
+  border: 2px, solid, #de8304;
+  cursor: not-allowed;
+
+}
+
+.GuessBoxForm {
+  margin-left: -140px;
+
+}

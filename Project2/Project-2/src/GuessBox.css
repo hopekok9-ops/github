@@ -1,0 +1,51 @@
+
+.error  {
+    border: red, 2px, solid;
+    background-color: pink;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: -100px;
+}
+
+.feedback {
+    border: darkgreen, 2px, solid;
+    background-color: lightgreen;
+    font-style: italic;
+    color:darkgreen; 
+    margin-top: 10px;
+    margin-left: -100px;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  background-color: #f1c9a8;
+  color: #e55b00;
+  font-weight: bold;
+  cursor: pointer;
+  border: 3px solid #e55b00;
+  transition: all 0.2s ease;
+
+}
+
+button:hover {
+  background-color: #e55b00;
+  color: #f0fff0;
+  transform: scale(1.05);
+}
+
+.GuessBoxForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+p {
+  line-height: 2rem;
+  font-size: 15px; 
+  font-weight: bold;
+  font-style: italic;
+  color: #b1190e; 
+}
