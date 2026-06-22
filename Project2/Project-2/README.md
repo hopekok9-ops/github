@@ -1,52 +1,64 @@
 # WEB102 Project 2 - Language FlashCard Set: Feelings in Español
 
-Submitted by: Hope Kiarie
+**Submitted by:** Hope Kiarie
 
-I created a Spanish flashcard set for language learners who want to practice and familiarize how to express their feelings in Spanish. 
+**Time spent:** 6 hours 
 
-Time spent: 6 hours 
+I created a Spanish flashcard set for language learners who want to practice and familiarize how to express their feelings in Spanish. This time, I added a "guess the answer" option for users to test their memory and review the cards to study and try again. 
+
 
 ## Required Features
 
 The following **required** functionality is completed:
 
+- [x] **The user can enter their guess into an input box *before* seeing the flipside of the card**
+  - [x] Application features a clearly labeled input box with a submit button where users can type in a guess
+  - [x] Clicking on the submit button with an **incorrect** answer shows visual feedback that it is wrong 
+  - [x]  Clicking on the submit button with a **correct** answer shows visual feedback that it is correct
 
-  - [x] **The app displays the title of the card set, a short description, and the total number of cards**
-  - [x] Title of card set is displayed 
-  - [x] A short description of the card set is displayed 
-  - [x] A list of card pairs is created
-  - [x] The total number of cards in the set is displayed 
-  - [x] Card set is represented as a list of card pairs (an array of dictionaries where each dictionary contains the question and answer is perfectly fine)
+- [x] **The user can navigate through an ordered list of cardss**
+  - [x] A forward/next button displayed on the card navigates to the next card in a set sequence when clicked
+  - [x] A previous/back button displayed on the card returns to the previous card in the set sequence when clicked
+  - [x] Both the next and back buttons should have some visual indication that the user is at the beginning or end of the list (for example, graying out and no longer being available to click), not allowing for wrap-around navigation
 
-  - [x] **A single card at a time is displayed**
-  - [x] Only one half of the information pair is displayed at a time
-
-  - [x] **Clicking on the card flips the card over, showing the corresponding component of the information pair**
-  - [x] Clicking on a card flips it over, showing the back with corresponding information 
-  - [x] Clicking on a flipped card again flips it back, showing the front
-      
-  - [x] **Clicking on the next button displays a random new card**
+## Optional Features 
 
 The following **optional** features are implemented:
 
-  - [x] Cards contain images in addition to or in place of text
-  - [ ] Some or all cards have images in place of or in addition to text
-  - [ ] Cards have different visual styles such as color based on their category
+- [x] Users can use a shuffle button to randomize the order of the cards
+  - Cards should remain in the same sequence (**NOT** randomized) unless the shuffle button is clicked 
+  - Cards should change to a random sequence once the shuffle button is clicked
+     
+- [x] A user’s answer may be counted as correct even when it is slightly different from the target answer
+  - Answers are considered correct even if they only partially match the answer on the card 
+  - Examples: ignoring uppercase/lowercase discrepancies, ignoring punctuation discrepancies, matching only for a particular part of the answer     rather than the whole answer
+
 
 ## Video Walkthrough
 
 Here's a GIF of implemented required & optional features:
 
-<img width="718" height="722" alt="LangCardGIF" src="https://github.com/user-attachments/assets/e27d1d17-bdca-4acb-bcf2-4f125e0c4532" />
+<img width="718" height="722" alt="LangCardGIF2" src="https://github.com/user-attachments/assets/1d877814-b1bc-4cd5-9024-52fdc981e66f" />
 
 
 
-<!-- Replace this with whatever GIF tool you used! -->
+## Notes 
 
+### What I learned / found interesting:
+-  useState() manages userInput, feedback (which showed if the answer was right), and the possible error (showed when the answer was wrong)
+-  onChange() updates the current form inputs in real time
+-  jsx validation loop differences in onCheckAnswer() to js (if/else loop to parameters)
+-  normalizedAns allowed userInput to have spaces and lowercase/uppercase vs correctAnswer 
 
-## Notes
+### The behind-the-scenes route: 
 
-This project helped me to practice using useState when it comes to flashcards. At first, I wasn't sure how the components would overlap between isFlipped, to the actual FlashCard, to the actual Webpage (LangWeb) but Copilot explained that useState can use the boolean (true/false) state to front or back and connects with onClick to make sure the user can click the flashcard to flip the card. The animation was also tricky to make but the resource was helpful. I think there were other "complex" componenets added in that made things seem more complicated (like the addition of arrays, adding in the "shuffle option for the NextCard function, adding a currentCard const, etc.) Though, I'm getting closer to understanding React as the arrays, for loop, math.random() were similar to Java. 
+1. The user views the current flashcard (front of the card)
+2. User types the answer on the input box and clicks the Check Answer button
+3. userInput saves the information 
+4. onChange() compares the userInput to the correctAnswer through the component onCheckAnswer() 
+5. Depending on the result it throws the feedback/error/or "null" response 
+6. The cycle repeats again once the user tries again OR moves to the previous/next card and clears everything in the useState      
+
 
 ## License
 
