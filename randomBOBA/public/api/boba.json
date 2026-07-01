@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Classic Milk Tea",
+    "imageURL": "./assets/classic-boba-tea.png",
+    "teaType": "Black Tea",
+    "milkType": "Whole Milk",
+    "bobaType": "Tapioca Pearls"
+  },
+  {
+    "name": "Lemon Boba Tea",
+    "imageURL": "./assets/lemon.webp",
+    "teaType": "Green Tea",
+    "milkType": "None",
+    "bobaType": "Tapioca Pearls"
+  },
+  {
+    "name": "Brown Sugar Milk Tea",
+    "imageURL": "./assets/brown-sugar-boba-tea.png",
+    "teaType": "Black Tea",
+    "milkType": "Fresh Milk",
+    "bobaType": "Brown Sugar Pearls"
+  },
+  {
+    "name": "Taro Milk Tea",
+    "imageURL": "./assets/taro.png",
+    "teaType": "Black Tea",
+    "milkType": "Whole Milk",
+    "bobaType": "Tapioca Pearls"
+  },
+  {
+    "name": "Thai Milk Tea",
+    "imageURL": "./assets/thai.png",
+    "teaType": "Thai Tea",
+    "milkType": "Evaporated Milk",
+    "bobaType": "Tapioca Pearls"
+  },
+  {
+    "name": "Matcha Milk Tea",
+    "imageURL": "./assets/matcha.png",
+    "teaType": "Matcha",
+    "milkType": "Oat Milk",
+    "bobaType": "Crystal Boba"
+  },
+  {
+    "name": "Strawberry Milk Tea",
+    "imageURL": "./assets/strawberry(2).png",
+    "teaType": "Green Tea",
+    "milkType": "Whole Milk",
+    "bobaType": "Strawberry Popping Boba"
+  },
+  {
+    "name": "Mango Milk Tea",
+    "imageURL": "./assets/mango.png",
+    "teaType": "Green Tea",
+    "milkType": "Whole Milk",
+    "bobaType": "Mango Popping Boba"
+  },
+  {
+    "name": "Lychee Milk Tea",
+    "imageURL": "./assets/lychee.png",
+    "teaType": "Green Tea",
+    "milkType": "Whole Milk",
+    "bobaType": "Lychee Popping Boba"
+  },
+  {
+    "name": "Hokkaido Milk Tea",
+    "imageURL": "./assets/hokkaido-milk-boba-tea.webp",
+    "teaType": "Black Tea",
+    "milkType": "Fresh Milk",
+    "bobaType": "Brown Sugar Pearls"    
+  },
+  {
+    "name": "Red Bean Milk Tea",
+    "imageURL": "./assets/red-bean.png",
+    "teaType": "Black Tea",
+    "milkType": "Whole Milk",
+    "bobaType": "Red Bean"
+  }
+]

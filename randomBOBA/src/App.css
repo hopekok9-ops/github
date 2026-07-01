@@ -1,0 +1,114 @@
+
+p {
+  color: black;
+}
+
+.intro {
+  text-align: center;
+  background-color: #fde4cf;
+  color: #8eecf5;
+  text-shadow: -1px -1x 0  #fae7ee;
+}
+
+
+h1, h2, h3 {
+  background-color: #fde4cf;
+  color: #8eecf5;
+
+}
+
+.bobaCard {
+  border-radius: 3px;
+  background-color:white;
+  padding: 15px;
+}
+
+.BobaShake {
+  font-family: Poppins;
+  font-weight: bold;
+  background-color: #fde4cf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.BannedList {
+  width: 100%;
+  background-color: #ff97c4;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+
+.section-1 {
+  width: 100%;
+  background-color: #89d2a3;
+  padding: 10px;
+  font-size: medium;
+}
+
+
+.historyBar {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 1rem;
+}
+
+img.historyBar {
+  width: 200px;
+  height: 200px;
+}
+
+button.discover {
+  background-color: #b4fded;
+  border-radius: 3px;
+  color: #2af0c5;
+  font-weight: bold;
+  box-shadow: 2px, #aef8ff;
+  transition: all 0.2s ease;
+  border: 2px solid #2af0c5;
+  padding: 4px;
+}
+
+.discover:hover {
+  background-color: #2af0c5;
+  border-color: #2af0c5;
+  color: #b4fded;
+  transform: scale(1.05);
+}
+
+.cardButtons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.banButton {
+  background-color: #fde4cf;
+  border-radius: 3px;
+  color: #ff97c4;
+  font-weight: bold;
+  box-shadow: 2px, #fae7ee;
+  transition: all 0.2s ease;
+  border: 2px solid #ff97c4;
+  padding: 4px;
+}
+
+.banButton:hover {
+  background-color: #ff97c4;
+  color: #fae7ee;
+  transform: scale(1.05);
+}
+
+
+img {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+}
+
