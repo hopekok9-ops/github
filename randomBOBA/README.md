@@ -1,8 +1,8 @@
-# Web Development Project 4 - Random BOBA TEA FLAVOR webpage
+# Web102 Project 4 - Random BOBA TEA FLAVOR
 
 Submitted by: Hope Kiarie
 
-This web app: Users can come here to find interesting boba drink flavors to try next time they are feeling something sweet!
+Users can come here to find interesting boba drink flavors to try next time they are feeling something sweet!
 
 Time spent: **8** hours spent in total
 
@@ -26,7 +26,6 @@ The following **required** functionality is completed:
 - [x] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
   - Clicking on the API call button should not result in any image/attributes with attribute values in the ban list being displayed (ex. Using a cat API, if the ban list includes the value 'Siberian' for the breed attribute, clicking on the Discover button should never result in a Siberian cat being displayed)
   - Note: More attribute values on the ban list may result in a higher frequency of repeat results
-  -  [ ] _To ensure an accurate grade, your recording **must** show that when clicked, an attribute in the ban list is immediately removed from the list of banned attributes_
 
 
 The following **optional** features are implemented:
@@ -38,17 +37,18 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [x] Created my own API 
+- [x] **Created my own API**
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of both required & optional features: 
 
+<img width="718" height="722" alt="BOBAGIF" src="https://github.com/user-attachments/assets/54825f5b-36cf-4155-a408-167735893988" />
 
 
 ## Notes
 
-For my idea of finding cool boba drink orders, I realized that there was not any dedicated bobaAPI so I had to build my own for the 
+For my idea of finding cool boba drink orders, I realized that there wasn't any dedicated bobaAPI, so I had to build my own for the project which took some time (gathering the images and inputting the format). I used the fetch request via .json because of this. I also still suffer for coder's block when it comes to starting from stratch (mainly throwing my ideas into a plan and later into executable code -- I tried using concepts related to the lab but some fit differently because the project used different specifications -- like not having inputs but using attributes instead). Maybe it's just practice until it's flows naturally but I found thinking by components and later how the user will interact with the website to map out my ideas better. I understand better how .filter(), .map(), and .includes() are used when dealing with a API (instead of the actual "hard-code" arrays). Still getting used to useState but it's getting better! I could fix some bug issues but I'm suprised I was able to get the required and optional done.  
 
 ## License
 
