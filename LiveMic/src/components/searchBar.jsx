@@ -1,11 +1,12 @@
-
-
-
-
-const SearchBar = () => { 
+﻿const SearchBar = ({ searchTerm, setSearchTerm }) => { 
     return (
-        <div className="search-bar">
-            <input type="text" placeholder="Search for concerts..." />
+        <div class="search-bar">
+            <input
+                type="text"
+                placeholder="Search for concerts..."
+                value={searchTerm}
+                onChange={(event) => setSearchTerm(event.target.value)}
+            />
         </div>
     );
 }

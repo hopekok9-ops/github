@@ -1,21 +1,25 @@
+﻿
 
 
 
-
-const FilterBar = () => { 
+const FilterBar = ({ selectedGenre, setSelectedGenre, selectedCity, setSelectedCity, genres, cities }) => { 
     return (
         <div className="filter-bar">
-            <select>
-                <option>All Genres</option>
-                <option>RnB</option>
-                <option>Amapiano</option>
-                <option>House</option>
+            <select value={selectedGenre} onChange={(event) => setSelectedGenre(event.target.value)}>
+                <option value="">All Genres</option>
+                {genres.map((genre) => (
+                    <option key={genre} value={genre}>
+                        {genre}
+                    </option>
+                ))}
             </select>
-            <select>
-                <option>All Cities</option>
-                <option>D.C.</option>
-                <option>Los Angeles</option>
-                <option>New York</option>
+            <select value={selectedCity} onChange={(event) => setSelectedCity(event.target.value)}>
+                <option value="">All Cities</option>
+                {cities.map((city) => (
+                    <option key={city} value={city}>
+                        {city}
+                    </option>
+                ))}
             </select>
         </div>
     );

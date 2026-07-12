@@ -1,12 +1,24 @@
 
 
+import ConcertCard from "./concertCard";
 
-
-const ConcertList = () => { 
+const ConcertList = ({concerts}) => { 
     return (
         <div className="concert-list">
-            <h2>Concerts</h2>
-            <p>Here are some upcoming concerts you might like!</p>
+            
+            {concerts.length > 0 ? (
+                concerts.map((concert) => (
+                    <ConcertCard key={concert.id} concert={concert}/>
+                ))
+            ) : (
+                <div className="no-concerts-wrapper">
+                    <div className="no-concerts">
+                        <p>No concerts found. Try another search!</p>
+                    </div>
+                </div>
+            )}
+
+
         </div>
     );
 }
