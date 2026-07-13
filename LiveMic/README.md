@@ -1,10 +1,10 @@
 # Web102 Project 5 - LiveMic Dashboard
 
-Submitted by: Hope Kiarie
+**Submitted by:** Hope Kiarie
 
-This web app: This dashboard shows upcoming concert dates for music fans to buy their tickets and enjoy watching their favorite artists live near their city! In this project I used the Ticketmaster API to load concert data for users to glance before going to the website.
+This dashboard shows upcoming concert dates for music fans to buy their tickets and enjoy watching their favorite artists live near their city! In this project I used the Ticketmaster API to load concert data for users to glance before going to the website.
 
-Time spent: 8 hours spent in total
+8 hours spent in total
 
 ## Required Features
 
