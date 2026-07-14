@@ -1,47 +1,50 @@
-# Web102 Project 5 - LiveMic Dashboard
+# Web102 Project 6 - *LiveMic DashBoard & Details*
 
-**Submitted by:** Hope Kiarie
+Submitted by: **Hope Kiarie**
 
-This dashboard shows upcoming concert dates for music fans to buy their tickets and enjoy watching their favorite artists live near their city! In this project I used the Ticketmaster API to load concert data for users to glance before going to the website.
+**In the new update, users can choose the concert they are interested in and see more details before deciding to buy tickets to the concert. There are charts to show where most concerts tend to be located and the top genres shown on the website.
+**
 
-8 hours spent in total
+Time spent: **8** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **The site has a dashboard displaying a list of data fetched using an API call**
-- [x] The dashboard should display at least 10 unique items, one per row
-- [x] The dashboard includes at least two features in each row
-- [x] **`useEffect` React hook and `async`/`await` are used**
-- [x] **The app dashboard includes at least three summary statistics about the data** 
-- [x] **A search bar allows the user to search for an item in the fetched data**
-- [x] The search bar **correctly** filters items in the list, only displaying items matching the search query
-
-- [x] The list of results dynamically updates as the user types into the search bar
-- [x] **An additional filter allows the user to restrict displayed items by specified categories**
-- [x] The filter restricts items in the list using a **different attribute** than the search bar
-- [x] The filter **correctly** filters items in the list, only displaying items matching the filter attribute in the dashboard
-- [x] The dashboard list dynamically updates as the user adjusts the filter
+- [x] **Clicking on an item in the list view displays more details about it**
+- [x] Clicking on an item in the dashboard list navigates to a detail view for that item
+- [x] Detail view includes extra information about the item not included in the dashboard view
+- [x] The same sidebar is displayed in detail view as in dashboard view
+- [x] **Each detail view of an item has a direct, unique URL link to that item’s detail view page**
+- [x] **The app includes at least two unique charts developed using the fetched data that tell an interesting story**
+- [x] At least two charts should be incorporated into the dashboard view of the site
+- [x] Each chart should describe a different aspect of the dataset
 
 
 The following **optional** features are implemented:
-- [x] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types
-  - e.g., as a text input, a dropdown or radio selection, and/or a slider
-- [ ] The user can enter specific bounds for filter values
-- [x] **additionally** add a "no results" screen when no data can be found 
+
+- [ ] The site’s customized dashboard contains more content that explains what is interesting about the data 
+  - e.g., an additional description, graph annotation, suggestion for which filters to use, or an additional page that explains more about the data
+- [ ] The site allows users to toggle between different data visualizations
+  - User should be able to use some mechanism to toggle between displaying and hiding visualizations 
+
+  
+The following **additional** features are implemented:
+
+* [x] Added a "back to dashboard" link
+* [x] Made better component & page ogranization with App.jsx
+* [x] Filtered out the "other" and "undefined" genre from the dataset
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img width="1434" height="722" alt="LiveMicGIF" src="https://github.com/user-attachments/assets/36fdd928-b45b-4bbe-89af-eafdb54f3a12" />
+https://github.com/user-attachments/assets/1dcef078-3a7a-4b15-ab01-68df01b2e7df
+
 
 
 ## Notes
-This was my first time using a big API and had some syncing issues but learned that every api file must be ".env" and that the link has to sync with the info the API has. This project called for more components (dashStats, concerdCard, concerdList, filterBar, header, searchBar, and the api file) which got a little complicated in terms of data flow and where props and states should be placed. Nevertheless, I learned the importance of App.jsx as the parent component when adding states to connect child components (especially in seperate files) in a website. 
-
+The organization of components used in this project was getting confusing last time, so I decided to make some more folders and use Routers to simplify the amount of code to write and edit. This was the bulk of the projct, but it helped me understand how multi-page websites work and how simple App.jsx looks once every component & page is stored in its own compartment and is "pulled" once the user wants to locate something instead of everything in the App. It also made css styling a little bit easier since the layouts were not crossed as much compared to Project 5. 
 
 ## License
 
