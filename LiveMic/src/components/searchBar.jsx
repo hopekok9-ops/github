@@ -1,6 +1,6 @@
 ﻿const SearchBar = ({ searchTerm, setSearchTerm }) => { 
     return (
-        <div class="search-bar">
+        <div className="search-bar">
             <input
                 type="text"
                 placeholder="Search for concerts..."
