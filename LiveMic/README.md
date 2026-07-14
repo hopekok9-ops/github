@@ -2,8 +2,7 @@
 
 Submitted by: **Hope Kiarie**
 
-**In the new update, users can choose the concert they are interested in and see more details before deciding to buy tickets to the concert. There are charts to show where most concerts tend to be located and the top genres shown on the website.
-**
+**In the new update, users can choose the concert they are interested in and see more details before deciding to buy tickets to the concert. There are charts to show where most concerts tend to be located and the top genres shown on the website.**
 
 Time spent: **8** hours spent in total
 
